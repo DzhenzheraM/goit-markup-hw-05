@@ -78,6 +78,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--main-color);
   text-decoration: none;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link.current::after {
   content: "";
@@ -99,7 +100,6 @@ ul {
 .head-nav .link:hover,
 .head-nav .link:focus {
   color: var(--accent-color);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .head-nav .link-phone {
@@ -111,6 +111,7 @@ ul {
   letter-spacing: 0.02em;
   font-weight: 500;
   text-decoration: none;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main {
@@ -405,9 +406,7 @@ h1 {
   width: 370px;
   position: relative;
 }
-.services {
-  position: relative;
-}
+
 .list-services .style + .style {
   margin-left: 30px;
 }
@@ -420,20 +419,17 @@ h1 {
   line-height: 1.16;
   text-align: center;
 }
-.list-services .style::before {
-  display: inline-block;
-  content: "";
-  position: absolute;
-  width: 370px;
-  height: 70px;
-  bottom: 0;
-  background-color: rgba(47, 48, 58, 0.8);
-}
+
 .section-services .caption {
   position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 370px;
+  height: 43px;
+  margin: 0;
+  padding-top: 27px;
   bottom: 0;
-  margin-left: 83px;
-  margin-bottom: 27px;
+  margin-bottom: 3px;
+
   font-size: 14px;
   line-height: 1.14;
   font-weight: 600;
@@ -500,6 +496,7 @@ h1 {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social {
@@ -515,16 +512,15 @@ h1 {
   width: 44px;
   height: 44px;
   border-radius: 50px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-logo .link:hover,
 .social-logo .link:focus {
   background-color: var(--accent-color);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-logo .link:hover .icon-social,
 .social-logo .link:focus .icon-social {
   fill: #ffffff;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social .social-logo + .social-logo {
@@ -549,6 +545,7 @@ h1 {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-firm:hover,
@@ -556,7 +553,6 @@ h1 {
   border-color: var(--accent-color);
   color: var(--accent-color);
   fill: var(--accent-color);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-firm .style + .style {
   margin-left: 30px;
@@ -630,6 +626,7 @@ h1 {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-logo {
@@ -651,6 +648,7 @@ h1 {
   width: 44px;
   height: 44px;
   border-radius: 50px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-logo .footer-list + .footer-list {
@@ -660,13 +658,11 @@ h1 {
 .footer .link-phone:hover,
 .footer .link-phone:focus {
   color: var(--accent-color);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .link:hover,
 .footer .link:focus {
   background-color: var(--accent-color);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .title {
@@ -755,12 +751,13 @@ h1 {
   border-radius: 4px;
   color: var(--main-color);
   border: 1px solid transparent;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-nav .button-nav:hover,
 .section-nav .button-nav:focus {
   background-color: var(--accent-color);
   color: #ffffff;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   cursor: pointer;
 }
 
@@ -797,6 +794,7 @@ h1 {
   margin-bottom: 27px;
   text-align: left;
   border: 1px solid #eeeeee;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-list .work-item:nth-child(3n) {
   margin-right: 0px;
@@ -835,13 +833,11 @@ h1 {
 .link:focus .section::before {
   opacity: 1;
   transform: translateY(0);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover .caption,
 .link:focus .caption {
   opacity: 1;
   transform: translateY(0);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-work .title {
   display: block;
