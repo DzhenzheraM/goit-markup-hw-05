@@ -53,51 +53,6 @@
         <div class="container">
           <h1>Эффективные решения для вашего бизнеса</h1>
           <button data-modal-open class="button">Заказать услугу</button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button data-modal-close class="modal-close">
-                <svg class="icon-close">
-                  <use xlink:href="./img/sprite.svg#icon-close"></use>
-                </svg>
-              </button>
-              <h2 class="modal-title">
-                Оставьте свои данные, мы вам перезвоним
-              </h2>
-              <ul>
-                <li class="list name">
-                  <svg class="icon-name">
-                    <use xlink:href="./img/sprite.svg#icon-name"></use>
-                  </svg>
-                  <p class="text name">Имя</p>
-                </li>
-                <li class="list phone">
-                  <svg class="icon-name">
-                    <use xlink:href="./img/sprite.svg#icon-phone"></use>
-                  </svg>
-                  <p class="text phone">Телефон</p>
-                </li>
-                <li class="list mail">
-                  <svg class="icon-name">
-                    <use xlink:href="./img/sprite.svg#icon-mail"></use>
-                  </svg>
-                  <p class="text mail">Почта</p>
-                </li>
-                <li class="list-coment">
-                  <p class="text coment">Коментарий</p>
-                </li>
-                <li class="list-aside">
-                  <svg class="icon-tick">
-                    <use xlink:href="./img/sprite.svg#icon-Vector"></use>
-                  </svg>
-                  <span class="text aside"
-                    >Соглашаюсь с рассылкой и принимаю
-                    <a href="">Условия договора</a>
-                  </span>
-                </li>
-              </ul>
-              <button class="modal-btn">Отправить</button>
-            </div>
-          </div>
         </div>
       </section>
       <!--Блок с преимуществоми нашей компании-->
@@ -454,6 +409,52 @@
         </ul>
       </div>
     </footer>
+    <!--Модалка-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close class="modal-close">
+          <svg class="icon-close">
+            <use xlink:href="./img/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h2 class="modal-title">
+          Оставьте свои данные, мы вам перезвоним
+        </h2>
+        <ul>
+          <li class="list name">
+            <svg class="icon-name">
+              <use xlink:href="./img/sprite.svg#icon-name"></use>
+            </svg>
+            <p class="text name">Имя</p>
+          </li>
+          <li class="list phone">
+            <svg class="icon-name">
+              <use xlink:href="./img/sprite.svg#icon-phone"></use>
+            </svg>
+            <p class="text phone">Телефон</p>
+          </li>
+          <li class="list mail">
+            <svg class="icon-name">
+              <use xlink:href="./img/sprite.svg#icon-mail"></use>
+            </svg>
+            <p class="text mail">Почта</p>
+          </li>
+          <li class="list-coment">
+            <p class="text coment">Коментарий</p>
+          </li>
+          <li class="list-aside">
+            <svg class="icon-tick">
+              <use xlink:href="./img/sprite.svg#icon-Vector"></use>
+            </svg>
+            <span class="text aside"
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="">Условия договора</a>
+            </span>
+          </li>
+        </ul>
+        <button class="modal-btn">Отправить</button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
